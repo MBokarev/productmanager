@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProductRepositoryTest {
     private ProductRepository repository = new ProductRepository();
-    private Book book1 = new Book(11, "Книга", 1500, "Братья Карамазовы", "Достоевский");
-    private Smartphone phone1 = new Smartphone(21, "Смартфон", 20000, "Фруктофон", "Смартфонодел");
+    private Book book1 = new Book(11, "Братья Карамазовы", 1500, "Достоевский");
+    private Smartphone phone1 = new Smartphone(21, "Фруктофон", 20000, "Смартфонодел");
 
     @BeforeEach
     public void addProducts() {
